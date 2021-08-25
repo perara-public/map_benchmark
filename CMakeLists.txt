@@ -68,6 +68,8 @@ add_subdirectory("external/facebook__folly")
 
 add_subdirectory("external/electronicarts__EASTL")
 
+include_directories(external/perhash/PerHash.h)
+
 # build stuff #####################################################################
 
 # use ccache
